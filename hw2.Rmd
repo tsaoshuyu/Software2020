@@ -20,10 +20,20 @@ str(iris)
 
 The sample median of the variable Petail.With is 
 
-
+```{r}
+median(iris$Petal.Width)
+```
 # Problem 3: Draw a histograms of the Sepal.Length variable
 
+```{r}
+hist(iris$Sepal.Length)
+```
 
 
 # Problem 4: Draw a scatter plot 
 
+```{r}
+x <- c(1:10)
+y <- c(1:10)
+scatter.smooth(x,y)
+```
